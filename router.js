@@ -11,7 +11,7 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      component: ()=>import('./src/index.vue'),
+      component: Index,
     },
     // {
     //   path: '/create',
